@@ -146,7 +146,6 @@ jobs:
     needs:
       - prepare_build_info
       - validate_target_subproject
-      - validate_release
     uses: ./.github/workflows/build.yml
     secrets: inherit
     with:
